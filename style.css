@@ -292,13 +292,19 @@ main{
 
 .section-description{
 
-    max-width:760px;
+    max-width:600px;
 
     color:var(--text-secondary);
 
     font-size:1.08rem;
 
     margin-bottom:24px;
+
+    text-align:center;
+
+    margin-left:auto;
+
+    margin-right:auto;
 
 }
 
@@ -523,7 +529,6 @@ main{
 
 }
 
-
 /* ==========================================================
    HERO
    ========================================================== */
@@ -545,6 +550,8 @@ main{
     margin:auto;
 
     position:relative;
+
+    padding-top:110px;
 
 }
 
@@ -596,6 +603,8 @@ main{
 
     margin-bottom:30px;
 
+    margin-top:20px;
+
 }
 
 .hero-description{
@@ -605,6 +614,12 @@ main{
     color:white;
 
     margin-bottom:28px;
+
+    text-align:center;
+
+    margin-left:auto;
+
+    margin-right:auto;
 
 }
 
@@ -676,7 +691,7 @@ main{
 
     align-items:center;
 
-    padding:16px 32px;
+    padding:12px 22px;
 
     border-radius:100px;
 
@@ -687,6 +702,8 @@ main{
     background:rgba(255,255,255,.03);
 
     transition:.35s;
+
+    font-size:0.9rem;
 
 }
 
@@ -947,7 +964,6 @@ main{
 
 }
 
-
 /* ==========================================================
    HERO
    ========================================================== */
@@ -969,6 +985,8 @@ main{
     margin:auto;
 
     position:relative;
+
+    padding-top:110px;
 
 }
 
@@ -1020,6 +1038,8 @@ main{
 
     margin-bottom:30px;
 
+    margin-top:20px;
+
 }
 
 .hero-description{
@@ -1029,6 +1049,12 @@ main{
     color:white;
 
     margin-bottom:28px;
+
+    text-align:center;
+
+    margin-left:auto;
+
+    margin-right:auto;
 
 }
 
@@ -1100,7 +1126,7 @@ main{
 
     align-items:center;
 
-    padding:16px 32px;
+    padding:12px 22px;
 
     border-radius:100px;
 
@@ -1111,6 +1137,8 @@ main{
     background:rgba(255,255,255,.03);
 
     transition:.35s;
+
+    font-size:0.9rem;
 
 }
 
@@ -1467,6 +1495,18 @@ main{
 
     text-align:center;
 
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.contact .section-description{
+
+    text-align:center;
+
 }
 
 .contact-buttons{
@@ -1475,7 +1515,7 @@ main{
 
     justify-content:center;
 
-    gap:18px;
+    gap:15px;
 
     flex-wrap:wrap;
 
