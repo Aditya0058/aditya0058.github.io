@@ -113,4 +113,70 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
+}  
+.welcome-text {
+    font-family: var(--pixel-font);
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.greeting {
+    font-family: var(--pixel-font);
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom: 24px;
+}
+.card {
+    position: relative;
+    border: var(--border-width) solid var(--ink);
+    padding: 24px;
+    background-color: var(--gold);
+}
+
+.card-label {
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    padding: 2px 8px;
+    background-color: var(--bg-paper);
+    font-family: var(--pixel-font);
+    font-size: 18px;
+    color: var(--muted);
+    border: var(--border-width) solid var(--ink);
+}
+.card-content {
+    display: flex;
+    align-items:last baseline;
+    justify-content: space-between;
+    
+}
+.card-content .my-name {
+    font-family: var(--pixel-font);
+    font-size: 50px;
+    padding-left: 30px;
+    color: var(--ink);
+    margin-top: 12px;
+}
+.card-content .about {
+    font-family: var(--pixel-font);
+    font-size: 18px;
+    padding-left: 30px;
+    color: var(--ink);
+
+}
+.info-cards {
+    display: flex;
+    gap: 5px;
+    margin-top: 24px;
+}
+.info-cards .card{
+    flex: 1;
+}
+.age-card .card-content .card-value {
+    font-size: 35px;
+}
+.card .card-content .card-value {
+    font-family: var(--pixel-font);
 }
