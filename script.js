@@ -5,3 +5,17 @@ links.forEach(link => {
         link.classList.add('active');
     })
 })
+
+async function loadHackatimeStats() {
+    const response = await fetch('https://hackatime.hackclub.com/api/v1/users/adityarajput/stats');
+    const data = await response.json();
+    console.log(data);
+    
+    // finding elements and putting data there
+    const TT = document.getElementById('total-time');
+    const streak = document.getElementById('current-streak')
+    TT.textContent = data.data.human_readable_total;
+    const msg = `${data.data.streak} Days`;
+    streak.textContent = msg;
+}
+loadHackatimeStats();

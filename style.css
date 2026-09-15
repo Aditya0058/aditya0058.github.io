@@ -14,11 +14,16 @@
 
     --sidebar-width: 250px;
 }
+html {
+    scroll-behavior: smooth;
+}
 * {
     padding: 0px;
     margin: 0px;
 }
-
+.page {
+    scroll-margin-top: 100px;
+}
 .sidebar {
     width: var(--sidebar-width);
     height: 100vh;
@@ -121,10 +126,10 @@ body {
     padding-right: 10px;
 }
 
-.greeting {
+.page-heading {
     font-family: var(--pixel-font);
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 300;
     padding-left: 40px;
     padding-top: 20px;
     margin-bottom: 24px;
@@ -222,4 +227,15 @@ body {
     font-size: 25px;
     display: flex;
     justify-content: center;
+}
+.section-title {
+    font-family: var(--pixel-font);
+    font-size: 25px;
+    font-weight: 50;
+    color: var(--muted);
+    padding-left: 70px;
+    text-decoration: underline dotted var(--muted) 3px;
+}
+#development-from-hackatime .card {
+    background-color: var(--gold);
 }
