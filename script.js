@@ -5,7 +5,7 @@ links.forEach(link => {
         link.classList.add('active');
     })
 })
-
+// data from hackatime
 async function loadHackatimeStats() {
     const response = await fetch('https://hackatime.hackclub.com/api/v1/users/adityarajput/stats');
     const data = await response.json();

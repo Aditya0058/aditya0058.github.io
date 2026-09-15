@@ -86,6 +86,10 @@ body {
     background-color: var(--bg-paper);
     font-family: var(--sans-font);
     color: var(--ink);
+    cursor: url('https://pixelarticons.com/free/cursors/default.png') 4 1, default;
+}
+a, button {
+    cursor: url('https://pixelarticons.com/free/cursors/pointer.png') 12 1, pointer;
 }
 .top-bar,
 .main-content {
@@ -237,5 +241,8 @@ body {
     text-decoration: underline dotted var(--muted) 3px;
 }
 #development-from-hackatime .card {
+    background-color: var(--gold);
+}
+.recursion, .dp, .java, .javascript, .html, .shell, .more-dsa{
     background-color: var(--gold);
 }
