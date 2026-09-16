@@ -352,8 +352,10 @@ a, button {
 }
 .contact-btn {
     font-family: var(--pixel-font);
+    font-size: 20px;
+    font-weight: 500;
     border: 2px solid var(--ink);
-    padding: 8px 14px;
+    padding: 10px 16px;
     background-color: var(--bg-paper);
     color: var(--ink);
     cursor: pointer;
