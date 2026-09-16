@@ -246,3 +246,122 @@ a, button {
 .recursion, .dp, .java, .javascript, .html, .shell, .more-dsa{
     background-color: var(--gold);
 }
+.projects-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.project {
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    
+}
+.project-thumbnail {
+    width: 380px;
+    height: 210px;
+    flex-shrink: 0;
+    border: var(--border-width) solid var(--ink);
+}
+.project-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    display: block;     
+}
+.project-body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.project-title-row{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+.project-name{
+    font-family: var(--pixel-font);
+    font-size: 40px;
+    color: var(--ink);
+}
+.project-status{
+    font-family: var(--pixel-font);
+    font-size: 25px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border:6px solid var(--ink);
+    background-color: var(--bg-panel);
+}
+.project-link-button{
+    font-family: var(--pixel-font);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border:6px solid var(--ink);
+    background-color: var(--bg-panel);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+}
+.project-link-button:hover{
+    background-color: var(--ink);
+    color: var(--bg-panel);
+    transform: translateY(-2px);
+}
+.setup-page {
+    width: 1244px;
+    height: 700px;
+}
+.screenshots-setup{
+    text-align: center;
+    padding: 24px;
+}
+.setup-button-links{
+    text-align: center;
+}
+.setup-button-links button{
+    font-family: var(--pixel-font);
+    border: 5px solid var(--ink);
+    padding: 8px 14px;
+    background-color: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.setup-button-links button:hover {
+    background-color: var(--ink);
+    color: var(--bg-panel);
+    transform: translateY(-2px);
+}
+.contact-card-content {
+    text-align: center;
+    justify-content: center;
+}
+.contact-btn {
+    font-family: var(--pixel-font);
+    border: 2px solid var(--ink);
+    padding: 8px 14px;
+    background-color: var(--bg-paper);
+    color: var(--ink);
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.contact-btn:hover {
+    background-color: var(--ink);
+    color: var(--bg-panel);
+    transform: translateY(-2px);
+}
