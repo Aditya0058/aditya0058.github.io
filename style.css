@@ -375,3 +375,12 @@ body.dark {
     --muted:  #777267;
     --brand-red: #EC3750;
 }
+.gmail, .whatsapp {
+    font-family: var(--pixel-font);
+    font-weight: 300;
+    font-size: 30px;
+}
+.footer {
+    display: flex;
+    gap: 60px;
+}
