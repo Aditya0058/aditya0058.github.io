@@ -1,13 +1,13 @@
-#What is it?
+# What is it?
 - This is my personal portfolio website - designed as project for pixl YSWS
 - The theme is also inspired from pixl.hackaclub.com
 
-#Tech Stack
+# Tech Stack
 - HTML
 - CSS
 - Javascript
 
-#Features in my website
+# Features in my website
 - Dark/Light Mode toggle button
 - Direct emailing button
 - Contain too many categories about me which are need to know
