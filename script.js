@@ -19,3 +19,27 @@ async function loadHackatimeStats() {
     streak.textContent = msg;
 }
 loadHackatimeStats();
+
+// theme changing 
+const themeBtn = document.querySelector('.theme')
+themeBtn.addEventListener('click', ()=>{
+if (document.body.classList.contains('dark')){
+        themeBtn.addEventListener('click', ()=>{
+        document.body.classList.remove('dark');
+        //changing the content of the theme button
+        const isDark = document.body.classList.contains('dark');
+        themeBtn.textContent = isDark? 'Light-Mode' : 'Dark-Mode';
+    })
+} else {
+        themeBtn.addEventListener('click', ()=>{
+        document.body.classList.add('dark');
+        //changing the content of the theme button
+        const isDark = document.body.classList.contains('dark');
+        themeBtn.textContent = isDark? 'Light-Mode' : 'Dark-Mode';
+        })
+}
+
+
+})
+
+// Emailme button

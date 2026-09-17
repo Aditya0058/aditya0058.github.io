@@ -353,7 +353,7 @@ a, button {
 .contact-btn {
     font-family: var(--pixel-font);
     font-size: 20px;
-    font-weight: 5gi00;
+    font-weight: 500;
     border: 2px solid var(--ink);
     padding: 10px 16px;
     background-color: var(--bg-paper);
@@ -366,4 +366,12 @@ a, button {
     background-color: var(--ink);
     color: var(--bg-panel);
     transform: translateY(-2px);
+}
+body.dark {
+    --bg-paper: #171615;
+    --bg-panel: #211f1e;
+    --ink: #ece8e2;
+    --gold: #d97720;
+    --muted:  #777267;
+    --brand-red: #EC3750;
 }
