@@ -21,5 +21,4 @@
 <img width="1892" height="952" alt="image" src="https://github.com/user-attachments/assets/4e0be5ba-8ccc-47ae-bddd-09a8845fa0fd" />
 
 # Want to see journey of building it
-- head here to see journal https://pixl.hackclub.com/project/697
 - head here to watch time spent on this project https://hackatime.hackclub.com/@adityarajput/project/aditya0058.github.io
