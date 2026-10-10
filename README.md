@@ -1,5 +1,5 @@
 # What is it?
-- This is my personal portfolio website - designed as project for pixl YSWS
+- This is my personal portfolio website - designed as project for hackclub YSWS
 - The theme is also inspired from pixl.hackaclub.com
 
 # Tech Stack
