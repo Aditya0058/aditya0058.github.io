@@ -1,6 +1,7 @@
 # What is it?
 - This is my personal portfolio website - designed as project for hackclub YSWS
 - The theme is also inspired from pixl.hackaclub.com
+- Made by me with no use of AI except for summarizing docs.
 
 # Tech Stack
 - HTML
