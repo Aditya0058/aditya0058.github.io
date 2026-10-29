@@ -28,3 +28,9 @@ const themeBtn = document.querySelector('.theme')
         const isDark = document.body.classList.contains('dark');
         themeBtn.textContent = isDark? 'Light-Mode' : 'Dark-Mode';
     })
+
+const age = document.getElementById('age')
+const currentYear = new Date().getFullYear();
+const finalAge  = currentYear - 2009;
+age.textContent = finalAge;
+    
