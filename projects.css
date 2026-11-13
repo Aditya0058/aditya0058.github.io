@@ -1,0 +1,81 @@
+:root {
+    --pixel-font: 'Pixelify Sans', ui-monospace, sans-serif;
+    --sans-font: 'Poppins', system-ui, sans-serif;
+    
+    --bg-paper: #f5eed2;
+    --bg-panel: #faf4de;
+    --ink: #16161e;
+    --gold: #ff8c37;
+    --muted: #a98d84;
+    --brand-red: #EC3750;
+    
+    --border-width: 4px;
+    --shadow-offset: 4px 4px 0 var(--ink);
+
+    --sidebar-width: 250px;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    background-color: var(--bg-panel);
+    padding: 20px;
+    border-right: var(--border-width) solid var(--ink);
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo {
+    font-family: var(--pixel-font);
+    font-size: 28px;
+    color: var(--ink);
+
+}
+
+.section-label {
+    font-family:var(--pixel-font);
+    font-size: 11px;
+    color:var(--muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a {
+    text-decoration: none;
+    color: var(--ink);
+    display: block;
+    font-family: var(--pixel-font);
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 12px 16px;
+    border-radius: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: var(--bg-paper);
+    transform: translateX(4px);
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+nav a:hover:not(.active) {
+    background-color: var(--ink);
+    color: var(--bg-panel);
+}
+nav a.active {
+    background-color: var(--brand-red);
+    color: var(--bg-panel);
+    border: 2px solid var(--ink);
+}
