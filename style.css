@@ -384,3 +384,26 @@ body.dark {
     display: flex;
     gap: 60px;
 }
+.project-btn{
+    font-family: var(--pixel-font);
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid var(--ink);
+    padding: 10px 16px;
+    background-color: var(--bg-paper);
+    color: var(--ink);
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.project-btn:hover{
+    background-color: var(--ink);
+    color: var(--bg-panel);
+    transform: translateY(-2px);
+}
+.more-projects-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
