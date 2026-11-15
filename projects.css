@@ -239,3 +239,9 @@ nav a.active {
 .readme-exposer, .music-player{
     background-color: var(--brand-red);
 }
+.pixl-portfolio, .pixel-art-pad{
+    background-color: var(--gold);
+}
+.buy-me-a-chai, .git-sandbox{
+    background-color: var(--muted);
+}
