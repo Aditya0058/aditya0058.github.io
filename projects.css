@@ -92,6 +92,7 @@ nav a.active {
     width: calc(100vw - 250px);
     flex: 1;
     min-width: 0;
+
     
 }
 
@@ -227,4 +228,14 @@ nav a.active {
 }
 .platformer, .baby-ghost{
     background-color: var(--gold);
+}
+
+.sections{
+    padding-top: 20px;
+}
+.candela-ai, .candela-ai-mvp{
+    background-color: var(--muted);
+}
+.readme-exposer, .music-player{
+    background-color: var(--brand-red);
 }
