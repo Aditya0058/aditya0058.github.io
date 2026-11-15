@@ -189,10 +189,11 @@ nav a.active {
     font-family: var(--pixel-font);
     font-size: 40px;
     color: var(--ink);
+    max-width: 300px;
 }
 .project-status{
     font-family: var(--pixel-font);
-    font-size: 25px;
+    font-size: 20px;
     color: var(--muted);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -223,4 +224,7 @@ nav a.active {
     display: flex;
     gap: 10px;
     padding: 10px;
+}
+.platformer, .baby-ghost{
+    background-color: var(--gold);
 }
