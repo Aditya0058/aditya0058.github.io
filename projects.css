@@ -19,6 +19,7 @@ html {
 }
 body{
     display: flex;
+    background-color: var(--bg-panel);
 }
 * {
     padding: 0px;
@@ -91,7 +92,9 @@ nav a.active {
     width: calc(100vw - 250px);
     flex: 1;
     min-width: 0;
+    
 }
+
 
 .top-bar {
     display: flex;
@@ -120,9 +123,104 @@ nav a.active {
     display: flex;
     gap: 10px;
     align-items: center;
-}  
+}
 .welcome-text {
     font-family: var(--pixel-font);
     font-size: 30px;
     padding-right: 10px;
+}
+.projects-section h1{
+    padding: 20px;
+}
+.section-heading{
+    font-family: var(--pixel-font);
+    font-size: 25px;
+    font-weight: 50;
+    color: var(--muted);
+    padding-left: 70px;
+    text-decoration: underline dotted var(--muted) 3px;
+}
+
+/* --- */
+
+.projects-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.project {
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    border: var(--border-width) solid var(--ink);
+    
+}
+.project-thumbnail {
+    width: 380px;
+    height: 210px;
+    flex-shrink: 0;
+    border: var(--border-width) solid var(--ink);
+}
+.project-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    display: block;     
+}
+.project-body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.project-title-row{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+.project-name{
+    font-family: var(--pixel-font);
+    font-size: 40px;
+    color: var(--ink);
+}
+.project-status{
+    font-family: var(--pixel-font);
+    font-size: 25px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border:6px solid var(--ink);
+    background-color: var(--bg-panel);
+}
+.project-link-button{
+    font-family: var(--pixel-font);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border:6px solid var(--ink);
+    background-color: var(--bg-panel);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+}
+.project-link-button:hover{
+    background-color: var(--ink);
+    color: var(--bg-panel);
+    transform: translateY(-2px);
+}
+
+.project-row{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
 }
