@@ -14,6 +14,13 @@
 - Contain too many categories about me which are need to know
 - Cool transition on buttons when hovering over it.
 
+# what is added in version 2
+- Seperate page for Projects
+- Multiple rows of project each containing 2 cards of project
+- Updated projects for Game Developement , Web-Playables
+- Added constant Theme localstorage item so - website remebers if u were at light or dark mode previously
+- Now all links open up in new tab
+
 # How to open
 - Just head to https://aditya0058.github.io/
 
