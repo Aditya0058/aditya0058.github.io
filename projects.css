@@ -129,9 +129,11 @@ nav a.active {
     font-family: var(--pixel-font);
     font-size: 30px;
     padding-right: 10px;
+    color: var(--ink);
 }
 .projects-section h1{
     padding: 20px;
+    color: var(--ink);
 }
 .section-heading{
     font-family: var(--pixel-font);
