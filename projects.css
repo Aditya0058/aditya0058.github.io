@@ -255,3 +255,45 @@ body.dark {
     --muted:  #777267;
     --brand-red: #EC3750;
 }
+
+/* Mobile respnsive */
+@media (max-width: 768px){
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: var(--border-width) solid var(--ink);
+        padding: 12px 16px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    .section-label{
+        display: none;
+    }
+    .sidebar nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .sidebar nav a{
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .sidebar nav a:hover{
+        transform: none;
+    }
+    .main-content{
+        margin-left: 0;
+        width: 100%;
+    }
+    .projects-section h1{
+        font-size: 30px;
+        padding: 16px 10px;
+    }
+    .section-heading{
+        font-size: 21px;
+        padding-left: 10px;
+    }
+}
