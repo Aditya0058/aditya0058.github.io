@@ -549,5 +549,27 @@ body.dark {
         gap: 20px;
         padding: 20px 10px;
         text-align: center;
+        
     }
+    .footer .gmail{
+        font-size: 20px;
+    }
+    .skills-page .info-cards{
+        flex-direction: column;
+    }
+    .skills-page .card{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .link-page .info-cards{
+        flex-direction: column;
+    }
+    .link-page .cards{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .link-page .card-content{
+        overflow-wrap: anywhere;
+    }
+
 }
