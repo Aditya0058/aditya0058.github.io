@@ -1,3 +1,5 @@
+
+
 const links = document.querySelectorAll('.nav-link');
 links.forEach(link => {
     link.addEventListener('click', () => {
@@ -20,14 +22,28 @@ async function loadHackatimeStats() {
 }
 loadHackatimeStats();
 
-// theme changing 
+// Apply saved theme when page loads
 const themeBtn = document.querySelector('.theme')
-        themeBtn.addEventListener('click', ()=>{
-        document.body.classList.toggle('dark');
-        //changing the content of the theme button
-        const isDark = document.body.classList.contains('dark');
-        themeBtn.textContent = isDark? 'Light-Mode' : 'Dark-Mode';
-    })
+const savedTheme = localStorage.getItem('theme');
+
+if (savedTheme === 'dark') {
+    document.body.classList.add('dark');
+    themeBtn.textContent = 'Light-Mode';
+} else {
+    themeBtn.textContent = 'Dark-Mode';
+}
+
+
+// Toggle theme
+themeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+
+    const isDark = document.body.classList.contains('dark');
+
+    themeBtn.textContent = isDark ? 'Light-Mode' : 'Dark-Mode';
+
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
 
 const age = document.getElementById('age')
 const currentYear = new Date().getFullYear();
