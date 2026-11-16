@@ -245,3 +245,11 @@ nav a.active {
 .buy-me-a-chai, .git-sandbox{
     background-color: var(--muted);
 }
+body.dark {
+    --bg-paper: #171615;
+    --bg-panel: #211f1e;
+    --ink: #ece8e2;
+    --gold: #d97720;
+    --muted:  #777267;
+    --brand-red: #EC3750;
+}
