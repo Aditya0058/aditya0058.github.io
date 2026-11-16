@@ -407,3 +407,20 @@ body.dark {
     align-items: center;
     justify-content: center;
 }
+/* Mobile Responsive sidebar  */
+@media (max-width: 768px){
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: var(--border-width) solid var(--ink);
+        padding: 12px 16px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    .section-label{
+        display: none;
+    }
+}
