@@ -571,5 +571,27 @@ body.dark {
     .link-page .card-content{
         overflow-wrap: anywhere;
     }
+    .project-link-button{
+        padding: 8px 12px;
+        min-height: 20px;
+    }
+}
 
+@media (max-width:480px){
+    .card{
+        padding: 16px;
+    }
+    .card-content .my-name{
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+    .card-content .about{
+        font-size: 14px;
+    }
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
