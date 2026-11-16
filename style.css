@@ -522,4 +522,32 @@ body.dark {
         border-width: 4px;
         padding: 4px, 8px;;
     }
+    .setup-page{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .screenshots-setup{
+        padding: 12px 0px;
+        overflow: hidden;
+    }
+    .top-bar{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    .top-bar .welcome{
+        font-size: 14px;
+    }
+    .top-bar .top-actions{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+        text-align: center;
+    }
 }
