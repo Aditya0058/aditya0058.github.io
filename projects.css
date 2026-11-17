@@ -325,10 +325,17 @@ body.dark {
     }
     .project-body{
         justify-content: flex-start;
+        gap: 20px;
     }
     .project-title-row{
         flex-direction: column;
         justify-content: flex-start;
+    }
+    .project-links{
+        justify-content: space-evenly;
+    }
+    .info-cards{
+        gap: 50px;
     }
 
 }

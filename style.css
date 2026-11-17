@@ -302,6 +302,16 @@ a, button {
     border:6px solid var(--ink);
     background-color: var(--bg-panel);
 }
+.project-hours{
+    font-family: var(--pixel-font);
+    font-size: 25px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border:6px solid var(--ink);
+    background-color: var(--bg-panel);
+}
 .project-link-button{
     font-family: var(--pixel-font);
     font-size: 15px;
@@ -407,6 +417,13 @@ body.dark {
     align-items: center;
     justify-content: center;
 }
+.Github, .gmail, .Monkey-Type{
+    background-color: var(--gold);
+}
+.LinkedIn, .Hackatime{
+    background-color: var(--brand-red);
+}
+
 /* Mobile Responsive sidebar  */
 @media (max-width: 768px){
     .sidebar{
@@ -521,6 +538,11 @@ body.dark {
         font-size: 16px;
         border-width: 4px;
         padding: 4px, 8px;;
+    }
+    .project-hours{
+        font-size: 16px;
+        border-width: 4px;
+        padding: 4px 8px;
     }
     .setup-page{
         width: 100%;

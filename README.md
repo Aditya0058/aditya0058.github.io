@@ -1,6 +1,6 @@
 # What is it?
-- This is my personal portfolio website - designed as project for hackclub YSWS
-- The theme is also inspired from pixl.hackaclub.com
+- This is my personal portfolio website - designed as a project for hackclub YSWS
+- The theme is inspired from pixl.hackaclub.com
 - Made by me with no use of AI except for summarizing docs.
 
 # Tech Stack
@@ -15,6 +15,7 @@
 - Cool transition on buttons when hovering over it.
 
 # what is added in version 2
+- (Main) -> Made complete website mobile responsive
 - Seperate page for Projects
 - Multiple rows of project each containing 2 cards of project
 - Updated projects for Game Developement , Web-Playables
@@ -22,6 +23,7 @@
 - Now all links open up in new tab
 - Added more professional links
 - Added description for every project
+- Added more colors to cards
 
 # How to open
 - Just head to https://aditya0058.github.io/
