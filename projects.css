@@ -35,6 +35,7 @@ body{
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    z-index: 1000;
     left: 0;
 }
 .logo {
@@ -99,6 +100,7 @@ nav a.active {
 
 .top-bar {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 16px 24px;
@@ -174,12 +176,12 @@ nav a.active {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 52px;
+    gap: 25px;
 }
 .project-title-row{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
 }
 .project-links {
     display: flex;
@@ -230,6 +232,12 @@ nav a.active {
 }
 .platformer, .baby-ghost{
     background-color: var(--gold); 
+}
+
+.project-hours{
+        font-size: 16px;
+        border-width: 4px;
+        padding: 4px 8px;
 }
 
 .sections{
