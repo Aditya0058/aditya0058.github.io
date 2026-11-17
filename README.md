@@ -16,10 +16,11 @@
 
 # what is added in version 2
 - (Main) -> Made complete website mobile responsive
-- Seperate page for Projects
+- Separate page for Projects
+- Added hours tracked tag for each project
 - Multiple rows of project each containing 2 cards of project
-- Updated projects for Game Developement , Web-Playables
-- Added constant Theme localstorage item so - website remebers if u were at light or dark mode previously
+- Updated projects for Game Developement , Web-Playable
+- Added constant Theme local-storage item so - website remembers if u were at light or dark mode previously
 - Now all links open up in new tab
 - Added more professional links
 - Added description for every project

@@ -153,6 +153,7 @@ nav a.active {
     display: flex;
     flex-direction: column;
     gap: 100px;
+    max-width: 50%-550px;
 }
 .project {
     display: flex;
