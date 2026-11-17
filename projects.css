@@ -229,7 +229,7 @@ nav a.active {
     padding: 10px;
 }
 .platformer, .baby-ghost{
-    background-color: var(--gold);
+    background-color: var(--gold); 
 }
 
 .sections{
@@ -259,20 +259,20 @@ body.dark {
 /* Mobile respnsive */
 @media (max-width: 768px){
     .sidebar{
+        border-right: none;
         width: 100%;
         height: auto;
-        position: relative;
-        border-right: none;
         border-bottom: var(--border-width) solid var(--ink);
         padding: 12px 16px;
-    }
-    .logo{
-        font-size: 24px;
+        
     }
     .section-label{
         display: none;
     }
-    .sidebar nav ul {
+    .logo{
+        font-size: 24px;
+    }
+    .sidebar nav ul{
         display: flex;
         flex-wrap: wrap;
         gap: 4px;
@@ -282,18 +282,53 @@ body.dark {
         padding: 8px 10px;
     }
     .sidebar nav a:hover{
-        transform: none;
+        transform: none
     }
     .main-content{
         margin-left: 0;
-        width: 100%;
+    }
+    .top-bar{
+        margin-left: 0;
+        margin-top: 155px;
+    }
+    .top-bar .top-bar-left .welcome-text{
+        font-size: 21px;
+    }
+    
+    .top-bar .top-bar-right button{
+        font-size: 10px;
     }
     .projects-section h1{
-        font-size: 30px;
-        padding: 16px 10px;
+        font-size: 27px;
+        padding: 10px;
     }
-    .section-heading{
-        font-size: 21px;
-        padding-left: 10px;
+    .projects-section .section-heading{
+        padding: 1px 10px;
     }
+    .game-developement-projects-cards{
+        padding: 0px;
+    }
+    .project-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .project .project-thumbnail{
+        width: 100%;
+        height: auto;
+    }
+    .waiting img{
+        height: 250px;
+    }
+    .project-body{
+        justify-content: flex-start;
+    }
+    .project-title-row{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
 }
